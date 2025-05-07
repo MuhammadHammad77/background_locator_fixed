@@ -1,12 +1,10 @@
 import 'dart:async';
 import 'dart:ui';
-
 import 'package:background_locator_2/settings/android_settings.dart';
 import 'package:background_locator_2/settings/ios_settings.dart';
 import 'package:background_locator_2/utils/settings_util.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
-
 import 'auto_stop_handler.dart';
 import 'callback_dispatcher.dart';
 import 'keys.dart';

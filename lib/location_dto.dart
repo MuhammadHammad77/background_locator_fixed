@@ -1,5 +1,4 @@
 import 'dart:io' show Platform;
-
 import 'keys.dart';
 
 class LocationDto {

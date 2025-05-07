@@ -1,8 +1,6 @@
 import 'dart:ui';
-
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
-
 import 'keys.dart';
 import 'location_dto.dart';
 

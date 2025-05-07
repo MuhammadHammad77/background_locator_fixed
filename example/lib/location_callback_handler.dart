@@ -1,7 +1,5 @@
 import 'dart:async';
-
 import 'package:background_locator_2/location_dto.dart';
-
 import 'location_service_repository.dart';
 
 @pragma('vm:entry-point')

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'background_locator.dart';
 
 class AutoStopHandler extends WidgetsBindingObserver {
@@ -12,6 +11,8 @@ class AutoStopHandler extends WidgetsBindingObserver {
         await BackgroundLocator.unRegisterLocationUpdate();
         break;
       case AppLifecycleState.resumed:
+        break;
+      case AppLifecycleState.hidden:
         break;
     }
   }
